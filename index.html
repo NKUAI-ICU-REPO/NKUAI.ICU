@@ -28,6 +28,13 @@
         hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
         namespace: 'docsify', // 用于区分多个文档项目的命名空间
       },
+      pagination: {
+        previousText: 'Previous',
+        // or
+        nextText: 'Next',
+        crossChapter: true,
+        crossChapterText: true,
+      },
       copyCode: {
         buttonText: {
           '/zh-cn/': '点击复制',
@@ -138,6 +145,9 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-php.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-latex.min.js"></script>
+
+  <!--Pagination-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
   <!--Emoji  Deprecated-->
 <!--  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>-->
