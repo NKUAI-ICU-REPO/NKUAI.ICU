@@ -97,6 +97,8 @@
 
 **感谢关注，随时欢迎提供资源和提出宝贵建议！**
 
+test admin push
+
 ## 友情链接
 
 - [IEEE.ICU](https://ieee.icu/)
