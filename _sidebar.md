@@ -1,0 +1,6 @@
+- [课程](/lesson)
+  - [大一课程](/lesson/grade1)
+    - [线性代数](/lesson/grade1/LA/test.md)
+    - [高等数学](/lesson/grade1/AM/test.md)
+- [资源](/resources)
+- [经验与攻略](/exp)
