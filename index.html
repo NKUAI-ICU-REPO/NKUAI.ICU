@@ -7,11 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <!--Visitors Counter-->
-  <script type="module">
-    // Alternative CDN (https://www.skypack.dev/view/uptime-widget)
-    import "https://cdn.skypack.dev/uptime-widget";
-  </script>
+
 </head>
 <body>
 <div id="app">Please wait...</div>
@@ -65,12 +61,8 @@
                         '<hr/>',
                         '<footer>',
                         '<strong>Maintainer: <a href="https://github.com/BreezeConfirmingWms" target="_blank">@BreezeConfirmingWms</a>, <a href="https://github.com/zheguabaoshuma" target="_blank">@zheguabaoshuma</a> </strong>',
-                        '<br>','<br>','<p>Server status in the last 90 days</p>',
-                        '<uptime-widget\n' +
-                        '  serverURL="https://status.ably.com/embed/uptime.json"\n' +
-                        '  href="https://status.ably.com"\n' +
-                        '  text="visit status site"\n' +
-                        '/>',
+                        '<br>','<br>','<p>Server status in the last 30 days</p>',
+                        '<a target="_blank" title="Start Website Monitoring for free with Uptime.com" href="https://uptime.com/devices/services/2516449/2eac4fe7be2bc330" style="display: inline-block; width: 140px; height: 60px; margin: 0px; padding: 0px; border: 0px; overflow: hidden; background-color: transparent; font-size: 0px; line-height: 0; text-decoration: none; vertical-align: middle;"><img src="https://uptime.com/devices/services/widget/2516449/2e97d52d6c906893/service?light" width="140" height="60" alt="Start Website Monitoring for free with Uptime.com" style="display: inline; width: 140px; height: 60px; margin: 0px; padding: 0px; border: 0px;"></a>',
                         '</footer>'
                 ].join('');
                 hook.beforeEach(function (content){
