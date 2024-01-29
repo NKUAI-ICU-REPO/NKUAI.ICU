@@ -19,6 +19,10 @@
       loadNavbar: true,
       subMaxLevel: 6,
       sidebarDisplayLevel:1,
+      latex: {
+        inlineMath   : [['$', '$'], ['\\(', '\\)']], // default
+        displayMath  : [['$$', '$$']],               // default
+      },
       search: {
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
         paths: 'auto', // 默认搜索所有路径
@@ -153,5 +157,10 @@
 <!--  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>-->
   <!--Image Zoom-->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+  <!-- LaTeX display engine -->
+  <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <!--  docsify-latex plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
 </body>
 </html>
