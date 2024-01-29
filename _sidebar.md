@@ -1,5 +1,5 @@
 - 课程
-  - [大一课程](/lesson/grade1/main.md)
+  - [大一课程]
     - [ARIN0014 线性代数](/lesson/grade1/ARIN0014 线性代数/main.md)
     - [AMTD0033 高等数学（A类）I](/lesson/grade1/AMTD0033 高等数学（A类）I/test.md)
     - [AMTD0033 高等数学（A类）II](/lesson/grade1/AMTD0033 高等数学（A类）II/main.md)
