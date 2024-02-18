@@ -2,7 +2,7 @@
  * @Author: BreezeConfirming
  * @Date: 2024-02-19 00:25:08
  * @LastEditors: “BreezeConfirmingWms” wmsthinksv@gmail.com
- * @LastEditTime: 2024-02-19 02:14:15
+ * @LastEditTime: 2024-02-19 02:48:47
  * @FilePath: /NKUAI.ICU/lesson/grade1/AMTD0034/main.md
  * @Description: 
  * 
@@ -44,5 +44,5 @@
 
 
 ## Info Link
-[期末试卷链接v1]()
-[电子书链接]()
+[期末试卷链接v1](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/raw/site-org/resources/grade1/AMTD0034/mathexam.zip)
+[电子书链接](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/raw/site-org/resources/grade1/AMTD0034/gaoshu.pdf)

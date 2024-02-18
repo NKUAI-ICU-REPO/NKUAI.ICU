@@ -15,3 +15,5 @@
 ## 课外拓展
 
 ## Info Link
+[计科试卷](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/raw/site-org/resources/grade1/ELEC0203/NKUCS.ICU-resources-grade-1-ELEC0203.zip)
+[试卷v1](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/raw/site-org/resources/grade1/ELEC0203/NKUAI_PHY.zip)

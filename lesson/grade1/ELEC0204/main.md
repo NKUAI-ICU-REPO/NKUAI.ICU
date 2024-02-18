@@ -24,4 +24,4 @@
 
 
 ## Info Link
-
+[试卷v1](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/raw/site-org/resources/grade1/ELEC0204/ELBASE.zip)
