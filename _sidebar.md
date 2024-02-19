@@ -1,5 +1,6 @@
 * 课程
 * 大一课程
+	+ [导航](/lesson/grade1)
 	+ [ARIN0014 线性代数](/lesson/grade1/ARIN0014/main.md)
 	+ [AMTD0033 高等数学（A类）I](/lesson/grade1/AMTD0033/main.md)
 	+ [⭐AMTD0033 高等数学（A类）II](/lesson/grade1/AMTD0034/main.md)
@@ -20,7 +21,7 @@
 	+ [IPTD0016 形势与政策](/lesson/grade1/IPTD0016/main.md)
 	+ [AMTD0013 一元函数微分（信）](/lesson/grade1/AMTD0013/main.md)
 * 大二课程
-	+ [sec](/lesson/grade2)
+	+ [导航](/lesson/grade2)
 	+ [COMP0059 认知科学基础](/lesson/grade2/COMP0059/main.md)
 	+ [ARIN0027 虚拟仿真技术实验](/lesson/grade2/ARIN0027/main.md)
 	+ [ARIN0052 计算机组成原理实验](/lesson/grade2/ARIN0052/main.md)
@@ -50,7 +51,7 @@
 	+ [ARIN0053 计算机组成原理](/lesson/grade2/ARIN0053/main.md)
 	+ [COMP0107 数据结构基础](/lesson/grade2/COMP0107/main.md)
 * 大三课程
-	+ [thr](/lesson/grade3)
+	+ [导航](/lesson/grade3)
 	+ [COMP0094 过程控制系统](/lesson/grade3/COMP0094/main.md)
 	+ [ARIN0003 人工智能技术](/lesson/grade3/ARIN0003/main.md)
 	+ [IPTD0018 习近平新时代中国特色社会主义思想概论](/lesson/grade3/IPTD0018/main.md)
