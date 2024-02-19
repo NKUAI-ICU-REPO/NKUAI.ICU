@@ -111,7 +111,7 @@
   <script src="https://cdn.jsdelivr.net/gh/gangdong/gangdong.github.io@dev/assets/js/md5.min.js"></script>
   <script>
     const gitalk = new Gitalk({
-      // id: md5(window.location.pathname),
+
       clientID: 'f0d3878d70b608dd7d06',
       clientSecret: '7f04562a589b2c94d541cf7b4471e90899b559ec',
       repo: 'NKUAI.ICU',
@@ -119,6 +119,8 @@
       admin: ['BreezeConfirmingWms','zheguabaoshuma'],
       // facebook-like distraction free mode
       distractionFreeMode: false,
+      id: md5(location.pathname)
+
       // id: location.pathname.match(/#(.*?)([?]$)/)[1],
     })
 
