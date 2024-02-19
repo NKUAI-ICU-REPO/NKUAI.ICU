@@ -7,22 +7,22 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <!--Visitors Counter-->
-  <script type="module">
-    // Alternative CDN (https://www.skypack.dev/view/uptime-widget)
-    import "https://cdn.skypack.dev/uptime-widget";
-  </script>
+
 </head>
 <body>
 <div id="app">Please wait...</div>
   <script>
     window.$docsify = {
       name: 'NKUAI.ICU',
-      repo: 'BreezeConfirmingWms/NKUAI.ICU',
+      repo: 'NKUAI-ICU-REPO/NKUAI.ICU',
       loadSidebar: true,
       loadNavbar: true,
       subMaxLevel: 6,
       sidebarDisplayLevel:1,
+      latex: {
+        inlineMath   : [['$', '$'], ['\\(', '\\)']], // default
+        displayMath  : [['$$', '$$']],               // default
+      },
       search: {
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
         paths: 'auto', // 默认搜索所有路径
@@ -31,6 +31,13 @@
         depth: 4, // 搜索标题的最大层级
         hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
         namespace: 'docsify', // 用于区分多个文档项目的命名空间
+      },
+      pagination: {
+        previousText: 'Previous',
+        // or
+        nextText: 'Next',
+        crossChapter: true,
+        crossChapterText: true,
       },
       copyCode: {
         buttonText: {
@@ -65,12 +72,8 @@
                         '<hr/>',
                         '<footer>',
                         '<strong>Maintainer: <a href="https://github.com/BreezeConfirmingWms" target="_blank">@BreezeConfirmingWms</a>, <a href="https://github.com/zheguabaoshuma" target="_blank">@zheguabaoshuma</a> </strong>',
-                        '<br>','<br>','<p>Server status in the last 90 days</p>',
-                        '<uptime-widget\n' +
-                        '  serverURL="https://status.ably.com/embed/uptime.json"\n' +
-                        '  href="https://status.ably.com"\n' +
-                        '  text="visit status site"\n' +
-                        '/>',
+                        '<br>','<br>','<p>Server status in the last 30 days</p>',
+                        '<a target="_blank" title="Start Website Monitoring for free with Uptime.com" href="https://uptime.com/devices/services/2516449/2eac4fe7be2bc330" style="display: inline-block; width: 140px; height: 60px; margin: 0px; padding: 0px; border: 0px; overflow: hidden; background-color: transparent; font-size: 0px; line-height: 0; text-decoration: none; vertical-align: middle;"><img src="https://uptime.com/devices/services/widget/2516449/2e97d52d6c906893/service?light" width="140" height="60" alt="Start Website Monitoring for free with Uptime.com" style="display: inline; width: 140px; height: 60px; margin: 0px; padding: 0px; border: 0px;"></a>',
                         '</footer>'
                 ].join('');
                 hook.beforeEach(function (content){
@@ -104,10 +107,10 @@
   <script>
     const gitalk = new Gitalk({
       id: md5(window.location.pathname),
-      clientID: 'a897216a035736bb1c94',
-      clientSecret: '2b22fbb729196570dc181e6befcabc1098dc4289',
+      clientID: 'f0d3878d70b608dd7d06',
+      clientSecret: '7f04562a589b2c94d541cf7b4471e90899b559ec',
       repo: 'NKUAI.ICU',
-      owner: 'BreezeConfirmingWms',
+      owner: 'NKUAI-ICU-REPO',
       admin: ['BreezeConfirmingWms','zheguabaoshuma'],
       // facebook-like distraction free mode
       distractionFreeMode: false
@@ -147,9 +150,17 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-php.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-latex.min.js"></script>
 
+  <!--Pagination-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
   <!--Emoji  Deprecated-->
 <!--  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>-->
   <!--Image Zoom-->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+  <!-- LaTeX display engine -->
+  <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <!--  docsify-latex plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
 </body>
 </html>
