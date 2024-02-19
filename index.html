@@ -86,6 +86,11 @@
                   }
                   var prefix = current.substring(1,i+1);
                   content = content.replace(regex,'img src=\"'+prefix+'$1\" alt=\"$2\" style=\"$3\" /');
+                  var splited = location.href.split('?')
+                  if (splited.length >= 2 && !splited[1].startsWith("code=")) {
+                    location.href = location.href.split('?')[0]
+                  }
+
                   return content;
                 })
                 hook.afterEach(function (html){return html + footer;});
