@@ -1,0 +1,62 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+ 
+int main()
+{
+    int a[20], b[20], n;
+    cin >> n;
+    int s = 0,l=0;
+    for (int i = 1; i <= n; i++)
+    {
+        cin >> a[i];
+        s += a[i];
+    }
+    s = s / n;
+    for (int i = n; i >=2; i--)
+    {
+        for (int j = 1;j<=i-1;j++)
+        {
+            if(a[j]<a[j+1])
+                {
+                int t = a[j];
+                a[j] = a[j+1];
+                a[j + 1] = t;
+                }
+        }
+    }
+    cout << s<<endl;
+    int x=0;
+    for (int i = 1; i <= n; i++)
+    {
+        if (a[i] < s)
+        {
+            x = i;
+            break;
+        }
+    }
+    for (int i = 1; i <= n+1; i++)
+    {
+        if (i < x)
+        {
+            b[i] = a[i];
+        }
+        else
+        {
+            if (i == x)
+            {
+                b[i] = s;
+            }
+            else
+            {
+                b[i] = a[i-1];
+            }
+        }
+    }
+    for (int i = 1; i <= n; i++)
+    {
+        cout << b[i] << " ";
+    }
+    cout << b[n + 1];
+    return 0;
+}

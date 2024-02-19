@@ -1,0 +1,174 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+//求字符串长度
+int getLength(char a[])
+{
+	int i=0,count=0;
+	while(a[i]!='\0')
+	{
+		count++;
+		i++;
+	}
+	return count;
+}
+
+//字符串拷贝
+void strCp(char a[],char b[])
+{
+	int i;
+	for(i=0;b[i]!='\0';i++)
+	{
+		a[i]=b[i];
+	}
+	a[i]='\0';
+}
+
+//字符串连接
+void strConn(char a[],char b[])
+{
+	int al=getLength(a);
+	int bl=getLength(b);
+	for(int i=0; i<bl; i++)
+	{
+		a[al+i]=b[i];
+	}
+	a[al+bl]='\0';
+}
+
+//字符串比较
+bool strCompare(char a[],char b[])
+{
+	int al=getLength(a);
+	int bl=getLength(b);
+	if(al!=bl)
+	{
+		return false;
+	}
+	else
+	{
+		for(int i=0; i<al; i++)
+	    {
+		    if(a[i]!=b[i])
+			{
+				return false;
+			}
+	    }
+		return true;
+	}	
+}
+
+
+//字符串逆序
+void strConver(char a[])
+{
+	char b[100];
+	int al=getLength(a);
+	for(int i=0;i<al;i++)
+	{
+		b[i]=a[al-1-i];
+	}
+	for(int i=0;i<al;i++)
+	{
+		a[i]=b[i];
+	}
+}
+
+//字符串中的字符统计
+int strCount(char a[],char f)
+{
+	int count=0;
+	for(int i=0;a[i]!='\0';i++)
+	{
+		if(a[i]==f)
+		{
+			count++;
+		}
+	}
+	return count;
+}
+
+//字符串中的字符查找
+void strSer1(char a[],char f)
+{
+	for(int i=0;a[i]!='\0';i++)
+	{
+		if(a[i]==f)
+		{
+			cout<<i<<" ";
+		}
+	}
+}
+
+
+//字符串中的子串查找
+void strSer2(char a[],char b[])
+{
+	int bl=getLength(b);
+	for(int i=0;a[i]!='\0';i++)
+	{
+		int j;
+		//循环查找
+		for(j=0;j<bl;i++,j++)
+		{
+			//首位置如果都不对，就直接跳出，扫下一个i
+			if(a[i]!=b[j])
+			{
+				break;
+			}
+		}
+		//如果一直扫描正确，那么就打印子串的起始位置，
+		//但此次已经i++了，下一次扫描应该从i的前一个位置扫，所以i--
+		if(j==bl)
+		{
+			cout<<i-bl<<" ";
+			i--;
+		}
+	}
+}
+
+
+int main()
+{
+	char a[100],b[100],c[100];
+	cin>>b;
+
+	cout<<"====求字符串长度===="<<endl;
+	cout<<getLength(b)<<endl;
+
+	cout<<"====字符串拷贝===="<<endl;
+	strCp(a,b);
+	cout<<a<<endl;
+	cout<<b<<endl;
+
+	cout<<"====字符串拼接===="<<endl;
+	strConn(a,b);
+	cout<<a<<endl;
+
+	cout<<"====字符串比较===="<<endl;
+	cout<<strCompare(a,b);
+	cout<<endl;
+	strCp(c,b);
+	cout<<strCompare(c,b)<<endl;
+
+	cout<<"====字符串中的字符统计===="<<endl;
+	cout<<strCount(a,'a')<<endl;
+
+	cout<<"====//字符串中的字符查找===="<<endl;
+	strSer1(a,'a');
+	cout<<endl;
+
+	cout<<"====//字符串中的子串查找===="<<endl;
+	cout<<a<<endl;
+	cout<<b<<endl;
+	strSer2(a,b);
+	cout<<endl;
+
+	cout<<"====//字符串逆序===="<<endl;
+	cout<<a<<endl;
+	strConver(a);
+	cout<<a<<endl;
+
+	return 0;
+}

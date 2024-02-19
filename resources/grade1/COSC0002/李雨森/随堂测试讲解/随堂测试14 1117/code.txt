@@ -1,0 +1,33 @@
+#include<iostream>
+ 
+using namespace std;
+ 
+int mod[4],rem[4],n;
+int main()
+{
+    for(int i=1;i<=3;i++)cin>>mod[i];
+    for(int i=1;i<=3;i++)cin>>rem[i];
+    cin>>n;
+    bool flag=true;
+    for(int i=1;i<=3;i++)
+        if(mod[i]<=rem[i]||mod[i]<=0||rem[i]<0)flag=false;
+    if(!flag){
+        cout<<"Incorrect input!\n";
+        return 0;
+    }
+    flag=false;
+    for(int i=0;i<=n;i++){
+        bool fg=true;
+        for(int j=1;j<=3;j++)
+            if(i%mod[j]!=rem[j]){
+                fg=false;
+                break;
+            }
+        if(fg){
+            cout<<i<<" ";
+            flag=true;
+        }
+    }
+    if(!flag)cout<<"No solution!\n";
+    return 0;
+}

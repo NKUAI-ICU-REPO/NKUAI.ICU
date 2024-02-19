@@ -1,0 +1,22 @@
+#include<cstdio>
+#include<iostream>
+using namespace std;
+int main() {
+    int n, sum = 0, p = 1;
+    cin >> n;
+    if (n <= 0) {
+        cout << "Incorrect input!" << endl;
+        return 0;
+    }
+    for (int i = 1; i <= n; i++) {
+        if (1ll*p*i > 2147483647) {
+            cout << "Out of range!" << endl;
+            return 0;
+        }
+        p *= i;
+        if (i % 2 == 0) sum -= p;
+        else sum += p;
+    }
+    cout << sum << endl;
+    return 0;
+}

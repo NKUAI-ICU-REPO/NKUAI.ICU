@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    char S[5000],s[5000];
+    cin>>S;
+    cin>>s;
+    for(int i=0;S[i]!='\0';i++){
+        if(S[i]==s[0]){
+            int m=i;
+            int panduan=1;
+            for(int j=0;s[j]!='\0';j++){
+                if(S[m++]!=s[j]){
+                    panduan=0;
+                    break;
+                }
+            }
+            m=i;
+            if(panduan==1){
+                    for(int j=0;s[j]!='\0';j++){
+                        S[m]='1';
+                        m++;
+                    }
+            }
+        }
+    }
+    for(int i=0;S[i]!='\0';i++){
+        if(S[i]>='a'&&S[i]<='z'){
+            cout<<S[i];
+        }
+    }
+    int k;
+    cin>>k;
+    return 0;
+}

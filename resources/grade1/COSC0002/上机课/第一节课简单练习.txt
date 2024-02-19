@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+	int a,b;
+	cout<<"请输入两个整数：";
+	cin>>a>>b;
+	cout<<"两个数的和为"<<a+b<<endl;
+	cout<<"两个数的差为"<<a-b<<endl;
+	cout<<"两个数的积为"<<a*b<<endl;
+	cout<<"两个数的商为"<<a/b<<endl;
+
+
+
+	cout<<"请输入第1个整数：";
+	cin>>a;
+	cout<<"请输入第2个整数：";
+	cin>>b;
+
+	if(a+b<5)
+	{
+		cout<<a*b<<endl;
+	}
+	if(a+b==5)
+	{
+		cout<<a-b<<endl;
+	}
+	if(a+b>5)
+	{
+		cout<<a*a-b*b<<endl;
+	}
+
+	return 0;
+}

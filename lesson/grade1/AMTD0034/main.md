@@ -36,3 +36,5 @@
 ## Info Link
 [期末试卷链接v1](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/raw/site-org/resources/grade1/AMTD0034/mathexam.zip)
 [电子书链接](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/raw/site-org/resources/grade1/AMTD0034/gaoshu.pdf)
+
+[所有资源(github)](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/tree/site-org/resources/grade1/AMTD0034)

@@ -1,0 +1,103 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+ 
+void print(char S[], bool reverse)
+{
+    int len = strlen(S);
+    if (reverse)
+    {
+        for (int i = len - 1; i >= 0; i--)
+        {
+            cout << S[i];
+        }
+    }
+    else
+    {
+        cout << S;
+    }
+    cout << endl;
+}
+ 
+void insert(char S[], int pos, char c)
+{
+    int len = strlen(S);
+    if (pos > len)
+    {
+        pos = len;
+    }
+    for (int i = len; i >= pos; i--)
+    {
+        S[i + 1] = S[i];
+    }
+    S[pos] = c;
+    print(S, false);
+}
+ 
+void remove(char S[], int pos)
+{
+    int len = strlen(S);
+    if (pos > len)
+    {
+        print(S, true);
+    }
+    else
+    {
+        for (int i = pos; S[i - 1] != '\0'; i++)
+        {
+            S[i - 1] = S[i];
+        }
+        print(S, false);
+    }
+}
+ 
+void replace(char S[], int pos, char c)
+{
+    int len = strlen(S);
+    if (pos > len)
+    {
+        print(S, true);
+    }
+    else
+    {
+        S[pos - 1] = c;
+        print(S, false);
+    }
+}
+ 
+int main()
+{
+    char S[17];
+    cin >> S;
+    int N;
+    cin >> N;
+    while (N--)
+    {
+        char Sc[20];
+        strcpy(Sc, S);
+        char op;
+        int i;
+        char c;
+        cin >> op;
+        switch (op)
+        {
+        case 'i':
+            cin >> i >> c;
+            insert(Sc, i, c);
+            break;
+        case 'd':
+            cin >> i;
+            remove(Sc, i);
+            break;
+        case 'r':
+            cin >> i >> c;
+            replace(Sc, i, c);
+            break;
+        default:
+            print(S, true);
+            cin.ignore('\n');
+            break;
+        }
+    }
+    return 0;
+}
