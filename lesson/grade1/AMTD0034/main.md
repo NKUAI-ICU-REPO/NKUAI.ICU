@@ -1,13 +1,3 @@
-<!--
- * @Author: BreezeConfirming
- * @Date: 2024-02-19 00:25:08
- * @LastEditors: “BreezeConfirmingWms” wmsthinksv@gmail.com
- * @LastEditTime: 2024-02-19 02:48:47
- * @FilePath: /NKUAI.ICU/lesson/grade1/AMTD0034/main.md
- * @Description: 
- * 
- * Copyright (c) 2024 by BreezeConfirming(Ming.Yan.) , All Rights Reserved. 
--->
 # AMTD0034 高等数学（A类）II
 
 ## 课程纪要
@@ -20,9 +10,9 @@
 :point_right: [*原页面*](https://nkucs.icu/#/courses/grade-1/AMTD0033)
 
 **2021 级前，高等数学 (A 类) I 为两门信息类高数：一元函数微分 (信)、一元函数积分 (信)，期中和期末各考核一次，各 3 学分。
-自 2021 级之后，修改为只期末考试一次，占 5 学分。
+自 2021 级之后，修改为只期末考试一次，占 5 学分。**
 
-2021 级前，高等数学 (A 类) II 为两门信息类高数：场论与无穷级数 (信)、多元函数微积分 (信)，期中和期末各考核一次，各 3 学分。
+**2021 级前，高等数学 (A 类) II 为两门信息类高数：场论与无穷级数 (信)、多元函数微积分 (信)，期中和期末各考核一次，各 3 学分。
 自 2021 级之后，修改为只期末考试一次，占 5 学分。**
 
 #### 转专业自修经验:
