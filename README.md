@@ -20,7 +20,7 @@ NKU----------AI--------IseeYou
    
 > 对于开源项目，在此向CS专业和计算机科学院的[DOCX计划](https://mmcheng.net/docx/)表示感谢!!!
 
-
+如有意向接任维护，请联系维护者邮箱:[维护者1](BreezeConfirming@163.com)
 
 *****
 ### 基本须知
