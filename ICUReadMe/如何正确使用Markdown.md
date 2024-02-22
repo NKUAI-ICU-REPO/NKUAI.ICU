@@ -565,4 +565,6 @@
 
    有关$L^AT_EX$的更多符号使用方法，可以参见这篇[知乎](https://zhuanlan.zhihu.com/p/510451940?utm_id=0)
 
-   更多有关`Markdown`的内容可以到[这里](https://www.markdownguide.org/)查找，本站非常欢迎各种经验攻略的`Markdown`文件投稿。*如果执意希望用其他方式比如`word`,`txt`，邮件投稿的时候向工作人员说明，我们会帮助排版内容*
+   更多有关`Markdown`的内容可以到[这里](https://www.markdownguide.org/)查找，本站非常欢迎各种经验攻略的`Markdown`文件投稿。
+   
+   *如果执意希望用其他方式比如`word`,`txt`，邮件投稿的时候向工作人员说明，我们会帮助排版内容*

@@ -54,6 +54,20 @@ NKU----------AI--------IseeYou
 
 请进入Github仓库找到对应Issue，在Github Issue中拖动文件进入聊天框即可，之后File会挂靠在本仓库但并不直接显示在仓库中，Github Issue会自动生成File的下载链接语法。
 
+## 如何参与本站的建设？
+最小白的方式，是将要更新的页面和资源文件发送到维护人员的[邮箱](BreezeConfirming@163.com)。
+
+最简单的方式，是在本站每个页面下方的评论区，留下你所愿意提供的信息与评价，网站维护者会在第一时间看到，且会酌情将其添加为对应页面的内容。评论区需要使用 Github 授权登陆，有时 Github 可能会无法登录，这时需要 "其他方式" 或稍等一段时间后才能访问。
+
+更加直接的方式，是点击本站右上角的章鱼图标，进入本站的 Github 仓库，以 Pull Request 的方式，提交你对本站内容的改进。
+
+如果你能够长期参与本站的建设，可以联系以下任意一位现任长聘维护人员，成为本站的维护人员，长期招募。
+
+现任维护人员 [@BreezeConfirmingWms](https://github.com/BreezeConfirmingWms)  [@zheguabaoshuma](https://github.com/zheguabaoshuma)
+
+我们欢迎一切形式、不论大小的贡献！🔥
+
+
 ## Notice 贡献须知
 
 ### **投稿要求**：
