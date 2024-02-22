@@ -17,6 +17,8 @@
 
 ## Info Link
 [实验手册](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/raw/site-org/resources/grade2/ARIN0052/LS-CPU-EXB-003cpu设计与体系结构实验指导手册v1.0(完整版)_20171014.pdf)
+[CPU代码](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/raw/site-org/resources/grade2/ARIN0052/computerOrgCpu.zip/)
+[CPU报告](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/raw/site-org/resources/grade2/ARIN0052/computerorg_final.pdf)
 
 > 如果你愿意提供任何信息与观点，请在下方评论区留言，网站维护者会在第一时间看到，将评论优质内容添加到主页🖱
 >
