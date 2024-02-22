@@ -1,9 +1,9 @@
 # 经验贴共享主页
 
 
-* [保研经验贴](masterkeep/main.md)
-* [考研经验贴](masterexam/main.md)
-* [实习和工作](careers/main.md)
-* [科研和竞赛](comps/main.md)
-* [出国学习](aboard/main.md)
-* [转专业等](trans/main.md)
+1. 保研夏令营经验贴
+2. 考研复试上岸经验贴
+3. 实习和工作经验贴
+4. 科研和竞赛经验贴
+5. 出国学习经验贴
+6. 转专业等

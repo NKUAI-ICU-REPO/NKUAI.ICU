@@ -1,5 +1,5 @@
 * 课程
-  * 大一课程
+  * [大一课程](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/tree/site-org/lesson/grade1)
       + [导航](/lesson/grade1)
       + [ARIN0014 线性代数](/lesson/grade1/ARIN0014/main.md)
       + [AMTD0033 高等数学（A类）I](/lesson/grade1/AMTD0033/main.md)
@@ -19,7 +19,7 @@
       + [SOFT0186 专业认知导引](/lesson/grade1/SOFT0186/main.md)
       + [IPTD0016 形势与政策](/lesson/grade1/IPTD0016/main.md)
       + [AMTD0013 一元函数微分（信）](/lesson/grade1/AMTD0013/main.md)
-  * 大二课程
+  * [大二课程](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/tree/site-org/lesson/grade2)
       + [导航](/lesson/grade2)
       + [COMP0059 认知科学基础](/lesson/grade2/COMP0059/main.md)
       + [ARIN0027 虚拟仿真技术实验](/lesson/grade2/ARIN0027/main.md)
@@ -49,7 +49,7 @@
       + [⭐COMP0088 自动控制原理](/lesson/grade2/COMP0088/main.md)
       + [🔍ARIN0053 计算机组成原理](/lesson/grade2/ARIN0053/main.md)
       + [COMP0107 数据结构基础](/lesson/grade2/COMP0107/main.md)
-  * 大三课程
+  * [大三课程](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/tree/site-org/lesson/grade3)
       + [导航](/lesson/grade3)
       + [COMP0094 过程控制系统](/lesson/grade3/COMP0094/main.md)
       + [ARIN0003 人工智能技术](/lesson/grade3/ARIN0003/main.md)
@@ -88,6 +88,12 @@
       + [COMP0069 机械工程基础](/lesson/grade3/COMP0069/main.md)
 * [资源](/resources/main.md)
 * [经验与攻略](/exp/main.md)
+  * [保研经验贴](./masterkeep/main.md)
+  * [考研经验贴](./masterexam/main.md)
+  * [实习和工作](./careers/main.md)
+  * [科研和竞赛](./comps/main.md)
+  * [出国学习](./aboard/main.md)
+  * [转专业等](./trans/main.md)
 * ICU站入门
   * [如何正确使用
    `MarkDown`](/ICUReadMe/如何正确使用Markdown.md)
