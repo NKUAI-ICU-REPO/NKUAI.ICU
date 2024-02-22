@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <include file="$(find turtlebot_bringup)/launch/minimal.launch"/>
+ 
+    <include file="$(find my_dynamixel)/launch/start_tilt_controller.launch"/>
+    <include file="$(find my_dynamixel)/launch/controller_manager.launch"/>
+
+    <include file="$(find turtlebot_navigation)/launch/amcl_demo.launch"/>
+    <include file="$(find turtlebot_rviz_launchers)/launch/view_navigation.launch"/>
+   
+   
+    <node name="iat_publish" pkg="robot_voice" type="iat_publish" required="true"  output="screen"/>
+    <node name="GoForward" pkg="my_turtlebot2_demo" type="GoToForward.py" required="true" output="screen"/>
+    <node name="test_photo" pkg="my_turtlebot2_demo" type="ImageRecognition.py" required="true" output="screen"/>
+    <node name="voice_assistant" pkg="robot_voice" type="voice_assistant" required="true" output="screen"  />
+
+
+  
+    <!-- <node name="ball_tracker" pkg="my_turtlebot2_demo" type="ball_follower.py" required="true" output="screen"/> -->
+    
+    <node name="nav_to_point" pkg="my_turtlebot2_demo" type="navigation_voice_control.py" required="true" output="screen"/>
+     <!-- <node name="navTurtlebot" pkg="my_turtlebot2_demo" type="navigation_control.py" required="true" output="screen"/> -->
+    <node name="arm" pkg="my_turtlebot2_demo" type="ArmDemoControl.py" required="true" output="screen"/>
+    <node name="ball_tracker" pkg="my_turtlebot2_demo" type="ball_follower.py" required="true" output="screen"/>
+    <!-- <node name="object_detect" pkg="my_turtlebot2_demo" type="object_detect.py" required="true" output="screen" /> -->
+</launch>

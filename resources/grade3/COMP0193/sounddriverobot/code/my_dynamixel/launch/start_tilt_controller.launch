@@ -1,0 +1,23 @@
+<launch>
+    <rosparam file="$(find my_dynamixel)/config/tilt.yaml" command="load"/>
+
+
+         <node name="dynamixel_controller_spawner" pkg="dynamixel_controllers"
+            type ="controller_spawner.py"
+            args="--manager=dxl_manager
+                --port pan_tilt_port
+                pan_controller
+                tilt_controller
+                link_controller
+                effort_controller
+                hand_controller"
+            output="screen"
+        />
+        <!-- <node name="tilt_controller_spawner" pkg="dynamixel_controllers"
+            type ="controller_spawner.py"
+            args="manager=dxl_manager
+                port pan_tilt_port 
+                tilt_controller"
+            output="screen"
+        /> -->
+</launch>

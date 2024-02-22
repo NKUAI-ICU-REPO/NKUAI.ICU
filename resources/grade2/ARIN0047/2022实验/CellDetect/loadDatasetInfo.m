@@ -1,0 +1,65 @@
+function [files, imExt, dataFolder, outFolder, mserParms, tol] = loadDatasetInfo(dataset)
+%This is used to setup (and load) the parameters of the dataset; use as
+%template for new datasets.
+%
+%INPUT
+%   dataSet = identifier of the data set as set in the switch-case
+%OUTPUT
+%   files = file names (must be the same for the images and annotations)
+%   imExt = image extension
+%   dataFolder = folder that contains the data (if training data, it must
+%       contain the both the images and the annotations)
+%   outFolder = folder to save results and intermediary data 
+%
+%minPixels, maxPixels, BoD(bright on dark) and DoB(dark on bright) are
+%parameters of VL_feat's MSER detector. The default should cover
+%all cases, but simple changes (spcially choosing BoD or DoB) can
+%considerably speed up the code for a specific dataset.
+
+
+%Defaults
+BoD = 1;
+DoB = 1;
+minPixels = 10;
+maxPixels = [];
+
+switch dataset
+    case 1 %PhaseContrast
+        %-TRAINING DATA SET-%
+        dataFolder = 'phasecontrast/trainPhasecontrast';
+        outFolder = 'phasecontrast/outPhasecontrast';
+        imExt = 'pgm';
+        minPixels =  10; 
+        maxPixels = 10000;
+        BoD = 0;
+        DoB = 1;
+        tol = 8; %Tolerance (pixels) for evaluation only
+    case 2 %PhaseContrast
+        %-TESTING DATA SET-%
+        dataFolder = 'phasecontrast/testPhasecontrast';
+        outFolder = 'phasecontrast/outPhasecontrast';
+        imExt = 'pgm';
+        minPixels =  10;
+        maxPixels = 10000;
+        BoD = 0;
+        DoB = 1;
+        tol = 8; %Tolerance (pixels) for evaluation only
+end
+
+if exist(dataFolder,'dir') ~= 7
+    error('Data folder not found')
+end
+
+if exist(outFolder,'dir') ~= 7
+    error('Output folder not found')
+end
+
+files = dir(fullfile(dataFolder,['*.' imExt]));
+[~,files] = cellfun(@fileparts, {files.name}, 'UniformOutput',false);
+mserParms.bod = BoD;
+mserParms.dob = DoB;
+mserParms.minPix = minPixels;
+mserParms.maxPix = maxPixels;
+
+
+end

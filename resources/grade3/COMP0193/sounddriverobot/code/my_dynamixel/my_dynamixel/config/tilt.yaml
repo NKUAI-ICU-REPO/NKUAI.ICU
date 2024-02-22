@@ -1,0 +1,70 @@
+tilt_controller:
+  controller:
+    package: dynamixel_controllers
+    module: joint_position_controller
+    type: JointPositionController
+  joint_name: tilt_joint
+  joint_speed: 0.1
+  motor:
+   id: 2
+   init: 0
+   min: 0
+   max: 100
+  #  id: 2
+  #  init: 0
+  #  min: 0
+  #  max: 2000
+  #  id: 3
+  #  init: 0
+  #  min: 0
+  #  max: 2000
+pan_controller:
+  controller:
+    package: dynamixel_controllers
+    module: joint_position_controller
+    type: JointPositionController
+  joint_name: pan_joint
+  joint_speed: 0.2
+  motor:
+   id: 1
+   init: 0
+   min: 0
+   max: 100
+link_controller:
+  controller:
+    package: dynamixel_controllers
+    module: joint_position_controller
+    type: JointPositionController
+  joint_name: link_joint
+  joint_speed: 0.1
+  motor:
+   id: 3
+   init: 0
+   min: 0
+   max: 100
+effort_controller:
+  controller:
+    package: dynamixel_controllers
+    module: joint_position_controller
+    type: JointPositionController
+  joint_name: effort_joint
+  joint_speed: 0.1
+  motor:
+   id: 4
+   init: 0
+   min: 0
+   max: 100
+
+hand_controller:
+  controller:
+    package: dynamixel_controllers
+    module: joint_position_controller
+    type: JointPositionController
+  joint_name: hand_joint
+  joint_speed: 0.2
+  motor:
+   id: 5
+   init: 0
+   min: 0
+   max: 100
+
