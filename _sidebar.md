@@ -86,11 +86,11 @@
       + [ARIN0041 运动控制](/lesson/grade3/ARIN0041/main.md)
       + [ARIN0056 项目管理与经济决策](/lesson/grade3/ARIN0056/main.md)
       + [COMP0069 机械工程基础](/lesson/grade3/COMP0069/main.md)
-* [资源](/resources)
-* [经验与攻略](/exp)
+* [资源](/resources/main.md)
+* [经验与攻略](/exp/main.md)
 * ICU站入门
-* [如何正确使用
- `MarkDown`](/ICUReadMe/如何正确使用Markdown.md)
-* [关于本站](/ICUReadMe/关于本站.md)
+  * [如何正确使用
+   `MarkDown`](/ICUReadMe/如何正确使用Markdown.md)
+  * [关于本站](/ICUReadMe/关于本站.md)
 
 
