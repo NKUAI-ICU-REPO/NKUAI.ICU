@@ -23,7 +23,7 @@
       + [站外导航](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/tree/site-org/lesson/grade2)
       + [COMP0059 认知科学基础](/lesson/grade2/COMP0059/main.md)
       + [ARIN0027 虚拟仿真技术实验](/lesson/grade2/ARIN0027/main.md)
-      + [⭐ARIN0052 计算机组成原理实验](/lesson/grade2/ARIN0052/main.md)
+      + [🔍ARIN0052 计算机组成原理实验](/lesson/grade2/ARIN0052/main.md)
       + [👨‍🎓IPTD0014 毛泽东思想和中国特色社会主义理论体系概论](/lesson/grade2/IPTD0014/main.md)
       + [ARIN0029 设计智能实践](/lesson/grade2/ARIN0029/main.md)
       + [ARIN0024 电机拖动实验](/lesson/grade2/ARIN0024/main.md)

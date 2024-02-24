@@ -12,7 +12,7 @@
 
 ## Info Link
 [课后答案](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/raw/site-org/resources/grade2/COMP0080/课后答案[1-6].pdf)
-
+[电子教材](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/raw/site-org/resources/grade2/COMP0080/数字逻辑电路.PDF)
 > 如果你愿意提供任何信息与观点，请在下方评论区留言，网站维护者会在第一时间看到，将评论优质内容添加到主页🖱
 >
 > 期待大家的共同建设🏗
