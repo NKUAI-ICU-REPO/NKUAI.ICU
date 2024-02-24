@@ -21,3 +21,4 @@
 
 [在这里(github)](https://github.com/NKUAI-ICU-REPO/NKUAI.ICU/tree/site-org/resources/grade1/COSC0002/)
 
+[高级程序语言设计2-1 upload by zgbsm](https://nkuai-1316622176.cos.ap-beijing.myqcloud.com/%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A12-1.zip)
