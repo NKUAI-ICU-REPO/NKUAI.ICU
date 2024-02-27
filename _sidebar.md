@@ -88,12 +88,12 @@
       + [COMP0069 机械工程基础](/lesson/grade3/COMP0069/main.md)
 * [资源](/resources/main.md)
 * [经验与攻略](/exp/main.md)
-  * [保研经验贴](./masterkeep/main.md)
-  * [考研经验贴](./masterexam/main.md)
-  * [实习和工作](./careers/main.md)
-  * [科研和竞赛](./comps/main.md)
-  * [出国学习](./aboard/main.md)
-  * [转专业等](./trans/main.md)
+  * [保研经验贴](/exp/masterkeep/main.md)
+  * [考研经验贴](/exp/masterexam/main.md)
+  * [实习和工作](/exp/careers/main.md)
+  * [科研和竞赛](/exp/comps/main.md)
+  * [出国学习](/exp/aboard/main.md)
+  * [转专业等](/exp/trans/main.md)
 * ICU站入门
   * [如何正确使用
    `MarkDown`](/ICUReadMe/如何正确使用Markdown.md)
