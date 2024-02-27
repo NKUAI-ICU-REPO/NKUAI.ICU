@@ -24,7 +24,7 @@
 > 本ICU项目灵感来自于[(NKUCS.iCU)](https://nkucs.icu)
 >
 > 
-> update on 2-27:请访问共享[网盘](pan.breezeconfirming.xyz)查看和上传资源(后续会有一些必要的教程)
+> update on 2-27:请访问共享[网盘](http://pan.breezeconfirming.xyz)查看和上传资源(后续会有一些必要的教程)
 ****
 ## 如何使用本站？
 
