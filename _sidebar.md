@@ -89,7 +89,7 @@
       + [COSC0009 OS](/lesson/grade3/COSC0009/main.md)
       + [COSC0010 WEB](/lesson/grade3/COSC0010/main.md)
   * [大四课程](/lesson/grade4/main.md)
-      + [COMP0028 毕业论文](/lesson/grade4/main.md)
+      + [COMP0028 毕业论文](/lesson/grade4/COMP0028/main.md)
 * [资源](/resources/main.md)
 * [经验与攻略](/exp/main.md)
   * [保研经验贴](/exp/masterkeep/main.md)
