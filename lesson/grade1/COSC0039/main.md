@@ -35,5 +35,4 @@
 [高级程序语言2-2笔试 upload by zgbsm](https://nkuai-1316622176.cos.ap-beijing.myqcloud.com/%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%802-2%E7%AC%94%E8%AF%95.zip)
 
 [高级程序语言设计2-2课件 upload by zgbsm](https://nkuai-1316622176.cos.ap-beijing.myqcloud.com/%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A12-2%E8%AF%BE%E4%BB%B6.zip)
-
 [一些机试材料](https://nkuai-1316622176.cos.ap-beijing.myqcloud.com/%E4%B8%80%E4%BA%9B%E6%9C%BA%E8%AF%95%E6%9D%90%E6%96%99.zip)
